@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "directory-setup"
+version = "0.0.1"
+authors = [
+    { name="Jason Weible", email="weible.jason@gmail.com" },
+]
+description = "a package to help setup a directory structure"
+readme = "README.md"
+requires-python = ">=3.10.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public Licesne v3 or later (GPLv3+)",
+    "Operating System :: Ubuntu 22.04.1 LTS"
+]
+
+[project.urls]
+"Homepage = "https://github.com/WeibleJason/directory-setup"
